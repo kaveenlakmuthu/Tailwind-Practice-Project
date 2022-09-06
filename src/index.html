@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/public/output.css" rel="stylesheet">
+  <title>ABCD</title>
+</head>
+<body>
+  <!-- Navigation Bar-->
+  <nav class="relative container mx-auto p-6">
+    <div class="flex items-center justify-between">
+      <!-- Logo -->
+      <div class="pt-2">
+        <a href="#">
+          <img src="./img/logo-abcd.png" alt=""/>
+        </a>
+      </div>
+      <!-- Menu -->
+      <div class="hidden md:flex space-x-6">
+        <a href="#" class="hover:text-LightRed">Home</a>
+        <a href="http://localhost" class="hover:text-LightRed">Blog</a>
+        <a href="http://localhost" class="hover:text-LightRed">About Us</a>
+        <a href="http://localhost" class="hover:text-LightRed">Community</a>
+        <a href="http://localhost" class="hover:text-LightRed">Contact</a>
+      </div>
+      <!-- Sign In Button -->
+      <a href="http://localhost" class="p-3 px-6 pt-2 text-cyan-50 bg-DarkBlue rounded-full baseline hover:bg-DarkRed">Sign In</a>
+      <button id="menu-button" class="block hamburger md:hidden focus:outline-none">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
+    </div>
+    <!-- menu for small screens -->
+    <div id="menu" class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+      <a href="#" class="hover:text-LightRed">Home</a>
+      <a href="http://localhost" class="hover:text-LightRed">Blog</a>
+      <a href="http://localhost" class="hover:text-LightRed">About Us</a>
+      <a href="http://localhost" class="hover:text-LightRed">Community</a>
+      <a href="http://localhost" class="hover:text-LightRed">Contact</a>
+    </div>
+  </nav>
+  <!-- Text -->
+  <section id="No_Idea">
+    <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+      <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+        <h1 class="max-w-md text-4xl font-bold text-center md:text-left">
+          Hello everyone...!
+           This is ABCD website.
+        </h1>
+        <p class="max-w-sm text-center text-indigo-800 md:text-left">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus fringilla a nulla ac cursus. Suspendisse potenti.
+          Cras sodales bibendum euismod.
+        </p>
+        <div class="flex justify-center md:justify-start">
+          <a href="http://localhost" class="p-3 px-6 pt-2 text-cyan-50 bg-DarkBlue rounded-full baseline hover:bg-DarkRed">Sign In</a>
+        </div>
+      </div>
+      <div class="md:w-1/2">
+        <img src="./img/logo-abcd-big.png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- about -->
+  <section id="who knows">
+    <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+      <div class="flex flex-col space-y-12 md:w-1/2">
+        <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
+          Who are we...?
+        </h2>
+        <p class="max-w-sm text-center text-indigo-800 md:text-left">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus fringilla a nulla ac cursus. Suspendisse potenti.
+          Cras sodales bibendum euismod.
+        </p>
+      </div>
+      <div class="flex flex-col space-y-8 md:w-1/2">
+        <p class="max-w-sm text-center text-indigo-900 md:text-left">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla a nulla ac cursus. Suspendisse potenti.
+          Cras sodales bibendum euismod. Cras pulvinar diam ac faucibus blandit. Maecenas laoreet nisl vitae ipsum commodo placerat.
+          Donec condimentum massa odio, ac tempus ligula laoreet sed. Mauris condimentum viverra porttitor.
+          Nam vitae leo velit.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- info -->
+  <section id="Info">
+    <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+      <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+        <h1 class="max-w-md text-4xl font-bold text-center md:text-left">
+          What are we doing...?
+        </h1>
+        <p class="max-w-sm text-center text-indigo-800 md:text-left">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla a nulla ac cursus.
+          Suspendisse potenti. Cras sodales bibendum euismod.
+          Cras pulvinar diam ac faucibus blandit. Maecenas laoreet nisl vitae ipsum commodo placerat.
+          Donec condimentum massa odio, ac tempus ligula laoreet sed. Mauris condimentum viverra porttitor.
+          Nam vitae leo velit. Donec bibendum tempus lacinia. Vivamus auctor tortor ac ante pulvinar convallis.
+          n hac habitasse platea dictumst. Cras interdum lacus et felis viverra sollicitudin. Ut eu felis non ex mollis faucibus.
+          Phasellus ullamcorper nibh turpis, non porta purus vehicula nec.
+          Sed lorem lectus, rhoncus at enim id, tincidunt aliquam dui.
+        </p>
+        <p class="max-w-sm text-center text-indigo-800 md:text-left">
+          Curabitur dolor sapien, placerat eget vulputate quis, luctus placerat magna.
+          Fusce nec consequat dolor, non vehicula enim.
+          In laoreet dolor eu metus fermentum, a hendrerit ex rutrum. Aliquam ac ornare nunc.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae massa congue, iaculis mi in, condimentum massa.
+          Quisque aliquam, quam sed elementum tristique, metus neque mattis velit, ac aliquet ante nisi non nisl.
+          Pellentesque non erat lobortis, varius quam a, posuere lorem. Ut risus massa, maximus vel auctor eu, blandit vel quam.
+          Etiam vel augue pharetra, finibus turpis quis, cursus arcu.
+          Pellentesque neque est, vulputate nec egestas vitae, ullamcorper in mauris.
+        </p>
+      </div>
+      <div class="md:w-1/2">
+        <img src="./img/favpng_blank-pie-graph-design.png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-blue-500">
+    <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+      <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+        <img src="./img/logo-abcd.png" class="h-8" alt="">
+        <div class="mx-auto my-6 text-center text-white md:hidden">Copyright &copy; 2022, All Rights Reserved</div>
+        <div class="flex justify-center space-x-4">
+          <a href="http://localhost"><img src="./img/icon-twitter.svg" class="h-8" alt=""></a>
+          <a href="http://localhost"><img src="./img/icon-youtube.svg" class="h-8" alt=""></a>
+          <a href="http://localhost"><img src="./img/icon-facebook.svg" class="h-8" alt=""></a>
+          <a href="http://localhost"><img src="./img/icon-instagram.svg" class="h-8" alt=""></a>
+        </div>
+      </div>
+      <div class="flex justify-around space-x-32">
+        <div class="flex flex-col space-y-3 text-white">
+          <a href="#" class="hover:text-LightRed">Home</a>
+          <a href="#" class="hover:text-LightRed">Blog</a>
+          <a href="#" class="hover:text-LightRed">About Us</a>
+        </div>
+        <div class="flex flex-col space-y-3 text-white">
+          <a href="#" class="hover:text-LightRed">Careers</a>
+          <a href="#" class="hover:text-LightRed">Community</a>
+          <a href="#" class="hover:text-LightRed">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="flex flex-col justify-between">
+        <form>
+          <div class="flex space-x-3">
+            <label>
+              <input class="flex-1 px-4 py-2 rounded-full focus:outline-none" placeholder="Get latest news." type="text">
+            </label>
+            <button class="px-6 py-2 text-white rounded-full bg-DarkBlue hover:bg-DarkRed focus:outline-none">Submit</button>
+          </div>
+        </form>
+        <div class="hidden text-white md:block">Copyright &copy; 2022, All Rights Reserved</div>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+</html>
+
